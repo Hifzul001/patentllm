@@ -1,0 +1,2 @@
+{"query": "battery thermal management systems for electric vehicles", "audience": "rd", "expected_terms": ["coolant", "temperature", "battery", "thermal"], "forbidden_terms": ["pharmaceutical", "wind turbine"], "expected_patent_ids": ["US-2026-000001-A1", "EP-2026-000004-A1"]}
+{"query": "competitive brief for EV charging load balancing", "audience": "sales", "expected_terms": ["charging", "grid", "battery"], "forbidden_terms": ["medical device"], "expected_patent_ids": ["EP-2025-077700-A1"]}

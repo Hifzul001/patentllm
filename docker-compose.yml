@@ -1,0 +1,11 @@
+services:
+  patentllm-api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - PATENTLLM_DB_URL=sqlite:///./patentllm.db
+      - PATENTLLM_OLLAMA_BASE_URL=http://host.docker.internal:11434
+    volumes:
+      - ./.patentllm:/app/.patentllm
+      - ./reports:/app/reports
